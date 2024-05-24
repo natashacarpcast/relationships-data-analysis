@@ -7,3 +7,6 @@ Thomas, P. A., Williams-Farrelly, M. M., Sauerteig, M. R., & Ferraro, K. F. (202
 Perlman, D., Sprecher, S., & Drouin, M. (2021). Introduction to the special issue on communication technologies and relationships. Journal of Social and Personal Relationships, 38, 026540752110609. https://doi.org/10.1177/02654075211060905
 
 Li, X., Li, C., Chi, J., & Ouyang, J. (2018). Short text topic modeling by exploring original documents. Knowledge and Information Systems, 56(2), 443–462. https://doi.org/10.1007/s10115-017-1099-0
+
+Amazon Web Services. (2024). Amazon EC2. https://aws.amazon.com/ec2/
+
