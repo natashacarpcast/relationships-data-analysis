@@ -10,3 +10,4 @@ Li, X., Li, C., Chi, J., & Ouyang, J. (2018). Short text topic modeling by explo
 
 Amazon Web Services. (2024). Amazon EC2. https://aws.amazon.com/ec2/
 
+Apache Parquet. (2024) Overview. https://parquet.apache.org/docs/overview/
