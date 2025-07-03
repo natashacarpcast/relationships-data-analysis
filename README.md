@@ -3,6 +3,14 @@ Final project for MACS 30113 - Big Data and High Performance Computing for Socia
 University of Chicago\
 Natasha Carpio Castellanos
 
+## Structure of the project 
+- [1-Preprocess-CSV-Upload-to-S3.ipynb](1-Preprocess-CSV-Upload-to-S3.ipynb): This notebook contains code for an initial preprocessing of the CSV file and upload to S3 bucket.
+- [2-CSV-to-parquet.ipynb](2-CSV-to-parquet.ipynb): This notebook contains code for converting the CSV into parquet format. 
+- [3-DataCleaning-Wrangling.ipynb](3-DataCleaning-Wrangling.ipynb): This notebook removes incomplete data and combines titles and texts of the Reddit’s submissions.
+- [4-Topic-Modeling.ipynb](4-Topic-Modeling.ipynb): This notebook performs topic modeling 
+- [5-Topic-Modeling-2.ipynb](5-Topic-Modeling-2.ipynb): This notebook categorizes all submissions into topics, and explores samples of submissions from each topic. 
+- [6-Sentiment-Analysis.ipynb](6-Sentiment-Analysis.ipynb): This notebook applies VADER Sentiment Analysis to each submission.
+
 ## Context
 
 Both theory and empirical studies have shown that social relationships have an impact on health. However, it is not only having relationships that matter, but also the quality of them (Thomas et al., 2022).
@@ -59,14 +67,6 @@ Thus, for this project, AWS was used to optimize both the storage and the time c
 
 - Apache Spark and Spark NLP: These solutions, integrated in the EMR cluster, allowed for the parallelizable use of functions and methods.
 
-## Structure of the project 
-- [1-Preprocess-CSV-Upload-to-S3.ipynb](1-Preprocess-CSV-Upload-to-S3.ipynb): This notebook contains code for an initial preprocessing of the CSV file and upload to S3 bucket.
-- [2-CSV-to-parquet.ipynb](2-CSV-to-parquet.ipynb): This notebook contains code for converting the CSV into parquet format. 
-- [3-DataCleaning-Wrangling.ipynb](3-DataCleaning-Wrangling.ipynb): This notebook removes incomplete data and combines titles and texts of the Reddit’s submissions.
-- [4-Topic-Modeling.ipynb](4-Topic-Modeling.ipynb): This notebook performs topic modeling 
-- [5-Topic-Modeling-2.ipynb](5-Topic-Modeling-2.ipynb): This notebook categorizes all submissions into topics, and explores samples of submissions from each topic. 
-- [6-Sentiment-Analysis.ipynb](6-Sentiment-Analysis.ipynb): This notebook applies VADER Sentiment Analysis to each submission.
-  
 ## Results and Limitations
 
 As for RQ 1, the topic modeling yielded some interesting topics but also unclear ones. Among those that were easier to interpret, it was observed that there are two types of relationships that cause concern: romantic and family relationships. Concerns about romantic relationships can be divided into two: of the dating stage and of the “official” relationship stage.
